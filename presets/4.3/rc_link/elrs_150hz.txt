@@ -33,7 +33,7 @@ set feedforward_jitter_factor = 5
 #$ OPTION END
 
 # stronger smoothing for HD freestyle:
-#$ OPTION BEGIN (CHECKED): HD Freestyle feedforward settings
+#$ OPTION BEGIN (UNCHECKED): HD Freestyle feedforward settings
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 45
 set feedforward_jitter_factor = 10

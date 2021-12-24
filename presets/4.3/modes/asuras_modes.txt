@@ -4,7 +4,8 @@
 #$ STATUS: PRIVATE
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: asuras
-#$ DESCRIPTION: Asuras default mode settings with serial port options for specific quad
+#$ DESCRIPTION: Asuras default mode settings
+#$ DESCRIPTION: Serial Port settings for specific quad can be selected
 
 # AUX switch settings
 
@@ -16,7 +17,7 @@ aux 4 35 2 1700 2100 0 0
 
 
 # Apex Serial Port settings:
-#$ OPTION BEGIN (CHECKED): Apex Serial Ports
+#$ OPTION BEGIN (UNCHECKED): Apex Serial Ports
 serial 0 2048 115200 57600 0 115200
 serial 2 2 115200 115200 0 115200
 serial 5 64 115200 57600 0 115200
