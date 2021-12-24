@@ -4,7 +4,7 @@
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  vtx, vtx table, tbs, unify , pro32, HV, SA 2.1
-#$ AUTHOR: sugarK
+#$ AUTHOR: sugarK, asuras
 #$ DESCRIPTION: VTX table for TBS Unify Pro32 HV SA 2.1. NOTE 1. Max power set to 36db as it will force the vtx to ouput max power. Note 2. this table is as provided by the manufacture.
 #$ DESCRIPTION: The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations. 
 #$ DESCRIPTION: ----------
@@ -24,4 +24,11 @@ vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
 vtxtable powervalues 14 20 26 36
 vtxtable powerlabels 25 100 400 1W+
+
+# personal VTX settings
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_power = 4
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+set vtx_freq = 5732
 

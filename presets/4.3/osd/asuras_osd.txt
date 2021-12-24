@@ -1,0 +1,21 @@
+#$ TITLE: Asuras 4.3 OSD settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, OSD
+#$ AUTHOR: Asuras
+#$ DESCRIPTION: Asuras Betaflight 4.3 OSD settings
+
+set osd_warn_rssi = ON
+set osd_vbat_pos = 14807
+set osd_rssi_pos = 14393
+set osd_link_quality_pos = 14423
+set osd_rssi_dbm_pos = 14455
+set osd_tim_2_pos = 14369
+set osd_mah_drawn_pos = 14785
+set osd_gps_speed_pos = 14379
+set osd_gps_lon_pos = 2145
+set osd_gps_lat_pos = 2113
+set osd_gps_sats_pos = 14388
+set osd_home_dist_pos = 14753
+set osd_battery_usage_pos = 2505
