@@ -1,8 +1,8 @@
 #$ TITLE: GPS rescue settings for Asuras
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: GPS
+#$ CATEGORY: OTHER
 #$ STATUS: PRIVATE
-#$ KEYWORDS: GPS
+#$ KEYWORDS: GPS, BATTERY, VOLTAGE
 #$ AUTHOR: Asuras
 #$ DESCRIPTION: GPS settings to 4.3 for Asuras
 
