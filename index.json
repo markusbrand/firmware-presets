@@ -199,10 +199,14 @@
   "presets": [
     {
       "fullPath": "presets/4.3/modes/asuras_modes.txt",
-      "hash": "9c4bb7824034d5bcc9f49dd0b8795c92293d5cdf4f4bfb5e3d0e48ae463b251b",
+      "hash": "c38045cf87f76cb04d05a3374909de2ec758816982392fff9e26c9d20e592fbd",
       "options": [
         {
           "name": "Apex Serial Ports",
+          "checked": false
+        },
+        {
+          "name": "EMax6S Serial Ports",
           "checked": false
         }
       ],
@@ -229,7 +233,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/asuras_osd.txt",
-      "hash": "fe00c9beb4bcec95ca73488d5d1e9bff18ca8432df225da1298e829c65b099a5",
+      "hash": "7b7e15fcd2b6fe1ceeef188b59ac28bcf48fee5825503818e572e71b2b0a185d",
       "options": [],
       "title": "Asuras 4.3 OSD settings",
       "firmware_version": [
@@ -249,7 +253,7 @@
     },
     {
       "fullPath": "presets/4.3/other/gps_settings.txt",
-      "hash": "1d84ec11486cc93245431c7909138a2cf00b54c273d3ba012c7c23c76e8d8b34",
+      "hash": "d8c31723756822cbe368b8fd6917dd092d68c0909ad11fd4ff1bd7c3b223829b",
       "options": [],
       "title": "GPS rescue settings for Asuras",
       "firmware_version": [
@@ -1093,7 +1097,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Unify_Pro32_HV_SA2_1.txt",
-      "hash": "3e5fb417b22c511897c1473c66d3a1a21149bd5916f21a12ee15f7b90f5dca7a",
+      "hash": "311a2922cfb4fabd5dd9969551322470d84af8217f7daafa44383ca83b200fc5",
       "options": [],
       "title": "TBS Unify Pro32 HV SA 2.1",
       "firmware_version": [

@@ -27,8 +27,7 @@ vtxtable powerlabels 25 100 400 1W+
 
 # personal VTX settings
 set vtx_band = 5
-set vtx_channel = 3
+set vtx_channel = 2
 set vtx_power = 4
 set vtx_low_power_disarm = UNTIL_FIRST_ARM
-set vtx_freq = 5732
-
+set vtx_freq = 5695
