@@ -1,4 +1,4 @@
-#$ TITLE: Asuras 4.3 tune for 5inch copter HD freestyle
+#$ TITLE: Asuras tune for 5inch copter HD freestyle
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY

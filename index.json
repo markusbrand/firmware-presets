@@ -1193,9 +1193,9 @@
     },
     {
       "fullPath": "presets/4.3/tune/asuras_tune_5inch_HDfreestyle.txt",
-      "hash": "f2950e1be4817de2dd82ff41662ded54730646c84d896db39b3023f12b3c19ff",
+      "hash": "0a24cf458334adf6009dd0a7d997dc6d545cd7484c5294d0abab46bdf39e7b7d",
       "options": [],
-      "title": "Asuras 4.3 tune for 5inch copter HD freestyle",
+      "title": "Asuras tune for 5inch copter HD freestyle",
       "firmware_version": [
         "4.3"
       ],
@@ -1214,9 +1214,9 @@
     },
     {
       "fullPath": "presets/4.3/tune/asuras_tune_US65.txt",
-      "hash": "2f0db06a02d13eb85bde1beb74aa0085a87084b247b805fc87e50d00a7123b7c",
+      "hash": "5f32aa90bf5341d6dd20e9e2562fa8d0b094546c0a57f3b2faab2ed824936f95",
       "options": [],
-      "title": "Asuras 4.3 tune for Tiny Whoop (US65)",
+      "title": "Asuras tune for Tiny Whoop (US65)",
       "firmware_version": [
         "4.3"
       ],
