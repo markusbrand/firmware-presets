@@ -1,10 +1,10 @@
-#$ TITLE: GPS rescue settings for Asuras
+#$ TITLE: GPS settings for Asuras
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: GPS, BATTERY, VOLTAGE
+#$ KEYWORDS: GPS, BATTERY, VOLTAGE, RESCUE, FAILSAFE
 #$ AUTHOR: Asuras
-#$ DESCRIPTION: GPS settings to 4.3 for Asuras
+#$ DESCRIPTION: GPS settings for Asuras
 
 set failsafe_procedure = GPS-RESCUE
 set gps_provider = UBLOX

@@ -141,6 +141,7 @@
       "Cgo",
       "Chief",
       "ELRS",
+      "FAILSAFE",
       "GPS",
       "HD",
       "HD_freestyle",
@@ -152,6 +153,7 @@
       "MultiGP",
       "OSD",
       "OpenRacer",
+      "RESCUE",
       "SA 2.1",
       "UAV Tech",
       "US65",
@@ -303,9 +305,9 @@
     },
     {
       "fullPath": "presets/4.3/other/gps_settings.txt",
-      "hash": "d8c31723756822cbe368b8fd6917dd092d68c0909ad11fd4ff1bd7c3b223829b",
+      "hash": "849db526d2daace55c6c800f84ddac3f74c4925ee10ae263107602da1e147885",
       "options": [],
-      "title": "GPS rescue settings for Asuras",
+      "title": "GPS settings for Asuras",
       "firmware_version": [
         "4.3"
       ],
@@ -314,11 +316,13 @@
       "keywords": [
         "GPS",
         "BATTERY",
-        "VOLTAGE"
+        "VOLTAGE",
+        "RESCUE",
+        "FAILSAFE"
       ],
       "author": "Asuras",
       "description": [
-        "GPS settings to 4.3 for Asuras"
+        "GPS settings for Asuras"
       ]
     },
     {
@@ -1189,7 +1193,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/asuras_tune_5inch_HDfreestyle.txt",
-      "hash": "dbf93d9616c52778529b63619e9b654ece191bff10b55020775e66a059236328",
+      "hash": "f2950e1be4817de2dd82ff41662ded54730646c84d896db39b3023f12b3c19ff",
       "options": [],
       "title": "Asuras 4.3 tune for 5inch copter HD freestyle",
       "firmware_version": [
