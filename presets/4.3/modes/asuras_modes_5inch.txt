@@ -1,10 +1,10 @@
-#$ TITLE: Asuras 4.3 Modes and Serial Port settings
+#$ TITLE: Asuras Modes and Serial Port settings for 5inch quad
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: asuras
-#$ DESCRIPTION: Asuras default mode settings
+#$ DESCRIPTION: Asuras default mode settings for 5inch quad
 #$ DESCRIPTION: Serial Port settings for specific quad can be selected
 
 # AUX switch settings

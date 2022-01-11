@@ -205,7 +205,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/modes/asuras_modes_5inch.txt",
-      "hash": "c38045cf87f76cb04d05a3374909de2ec758816982392fff9e26c9d20e592fbd",
+      "hash": "64128977d57c0c206af891e3051575204513e0ebd50c2c31963f8985fae65b43",
       "options": [
         {
           "name": "Apex Serial Ports",
@@ -216,7 +216,7 @@
           "checked": false
         }
       ],
-      "title": "Asuras 4.3 Modes and Serial Port settings",
+      "title": "Asuras Modes and Serial Port settings for 5inch quad",
       "firmware_version": [
         "4.3"
       ],
@@ -233,23 +233,22 @@
       ],
       "author": "asuras",
       "description": [
-        "Asuras default mode settings",
+        "Asuras default mode settings for 5inch quad",
         "Serial Port settings for specific quad can be selected"
       ]
     },
     {
       "fullPath": "presets/4.3/modes/asuras_modes_US65.txt",
-      "hash": "6092ba8543f5934a6e5986a0af47ca19bcf00df71da707e9e419696496ed26e8",
+      "hash": "576308b0cee69a7def8cdf3dfe600ace55a31ed88824c4f61a0f8695cf6a58a1",
       "options": [],
-      "title": "Asuras 4.3 Modes and Serial Port settings",
+      "title": "Asuras Modes and Serial Port settings for Tiny Whoop (US65PRO)",
       "firmware_version": [
         "4.3"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "defaults",
-        "reset",
+        "US65",
         "mode",
         "modes",
         "adjustments",
@@ -258,7 +257,7 @@
       ],
       "author": "asuras",
       "description": [
-        "Asuras default mode settings for Tiny Whoop",
+        "Asuras default mode settings for Tiny Whoop (US65PRO)",
         "Serial Port settings for US65"
       ]
     },
@@ -957,14 +956,14 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_d_spi_US65.txt",
-      "hash": "389b1f79692dbc11b48d5157f394ad467bdc9cac50598da6022b80df900e2c38",
+      "hash": "85a3cb0830374942e4afa72686af424ac9d8057bfe5002106e93568efbdf2fef",
       "options": [],
       "title": "FrSky SPI US65",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "frsky",
         "spi",
@@ -1231,9 +1230,9 @@
     },
     {
       "fullPath": "presets/4.3/vtx/US65_VTX.txt",
-      "hash": "75338e90ddfdb2afdaca025efd0f318bae430a72e218e43f4f2de99eb578aeac",
+      "hash": "456ef26ef92ca534b2eb440d8acd20f2e48974f2be6c2a1f9c82937ad50ff1b9",
       "options": [],
-      "title": "TBS Unify Pro32 HV SA 2.1",
+      "title": "FrSky SPI - Tiny Whoop US65PRO",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1243,20 +1242,13 @@
       "keywords": [
         "vtx",
         "vtx table",
-        "tbs",
-        "unify",
-        "pro32",
-        "HV",
-        "SA 2.1"
+        "SPI",
+        "frsky"
       ],
-      "author": "sugarK, asuras",
+      "author": "asuras",
       "description": [
-        "VTX table for TBS Unify Pro32 HV SA 2.1. NOTE 1. Max power set to 36db as it will force the vtx to ouput max power. Note 2. this table is as provided by the manufacture.",
-        "The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.",
-        "----------",
-        "Using the VTX tables as provided may be in breach of your local RF laws. It is up to the end user to research and comply with local regulations and in using these presets the user assumes all liability associated with breaching local regulations."
+        "VTX table for frsky SPI US65PRO"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/31",
       "include_disclaimer": [
         "misc/disclaimer/en/vtxtable.txt"
       ]
