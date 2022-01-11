@@ -5,6 +5,7 @@
 #$ KEYWORDS: 5inch, HD, freestyle, tune
 #$ AUTHOR: Asuras
 #$ DESCRIPTION: Asuras Betaflight 4.3 tune for 5inch copter
+#$ DESCRIPTION: Based on Karate Tune with RPM filtering (DShot300)
 
 # feature
 feature GPS

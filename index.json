@@ -1193,7 +1193,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/asuras_tune_5inch_HDfreestyle.txt",
-      "hash": "0a24cf458334adf6009dd0a7d997dc6d545cd7484c5294d0abab46bdf39e7b7d",
+      "hash": "1a386be52e9acd8da2804ffb578a5d431e52ecac3cf7072d733f6950fd98e6b4",
       "options": [],
       "title": "Asuras tune for 5inch copter HD freestyle",
       "firmware_version": [
@@ -1209,7 +1209,8 @@
       ],
       "author": "Asuras",
       "description": [
-        "Asuras Betaflight 4.3 tune for 5inch copter"
+        "Asuras Betaflight 4.3 tune for 5inch copter",
+        "Based on Karate Tune with RPM filtering (DShot300)"
       ]
     },
     {
