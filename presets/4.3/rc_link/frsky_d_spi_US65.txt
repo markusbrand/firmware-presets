@@ -1,0 +1,41 @@
+#$ TITLE: FrSky SPI US65
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: frsky, spi, rc, link
+#$ AUTHOR: asuras
+#$ DESCRIPTION: RC link settings for US65
+
+feature -RX_PARALLEL_PWM
+
+set serialrx_provider = SBUS
+set rx_spi_protocol = FRSKY_D
+set rssi_channel = 8
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+
+set vbat_warning_cell_voltage = 300
+set ibata_scale = 1175
+
+set frsky_spi_tx_id = 65,122,5
+set frsky_spi_offset = -32
+set frsky_spi_bind_hop_data = 2,92,182,37,127,220,72,162,17,107,197,52,142,232,89,177,32,122,212,67,157,12,102,192,47,137,227,82,172,27,117,207,62,152,7,97,187,42,132,222,77,167,22,112,202,57,147,0,0,0
+
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 40
+set feedforward_jitter_factor = 5
+set feedforward_boost = 18
+set feedforward_max_rate_limit = 95
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+set mag_hardware = NONE
+set baro_hardware = NONE
+set name = US65
+
+
+
+
+

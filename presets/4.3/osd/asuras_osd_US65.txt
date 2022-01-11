@@ -1,0 +1,18 @@
+#$ TITLE: Asuras 4.3 OSD settings for Tiny Whoop (US65)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, OSD
+#$ AUTHOR: Asuras
+#$ DESCRIPTION: Asuras Betaflight 4.3 OSD settings
+
+set osd_cap_alarm = 300
+set osd_vbat_pos = 14743
+set osd_rssi_pos = 14362
+set osd_tim_2_pos = 14720
+set osd_crosshairs_pos = 237
+set osd_mah_drawn_pos = 14732
+set osd_avg_cell_voltage_pos = 14711
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set vcd_video_system = NTSC

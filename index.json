@@ -109,6 +109,7 @@
       "RATES",
       "RC_LINK",
       "RC_SMOOTHING",
+      "TUNE",
       "VTX"
     ],
     "author": [
@@ -133,6 +134,7 @@
       "500hz",
       "50hz",
       "533",
+      "5inch",
       "AlexFPV",
       "BATTERY",
       "BMSThomas",
@@ -152,7 +154,9 @@
       "OpenRacer",
       "SA 2.1",
       "UAV Tech",
+      "US65",
       "VOLTAGE",
+      "Whoop",
       "\\\\GAS",
       "actual",
       "adjustments",
@@ -185,10 +189,12 @@
       "sbus",
       "smooth",
       "smoothing",
+      "spi",
       "switch",
       "tbs",
       "texas",
       "transition",
+      "tune",
       "unify",
       "vanover",
       "vtx",
@@ -198,7 +204,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/modes/asuras_modes.txt",
+      "fullPath": "presets/4.3/modes/asuras_modes_5inch.txt",
       "hash": "c38045cf87f76cb04d05a3374909de2ec758816982392fff9e26c9d20e592fbd",
       "options": [
         {
@@ -232,7 +238,32 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/osd/asuras_osd.txt",
+      "fullPath": "presets/4.3/modes/asuras_modes_US65.txt",
+      "hash": "6092ba8543f5934a6e5986a0af47ca19bcf00df71da707e9e419696496ed26e8",
+      "options": [],
+      "title": "Asuras 4.3 Modes and Serial Port settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "asuras",
+      "description": [
+        "Asuras default mode settings for Tiny Whoop",
+        "Serial Port settings for US65"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/asuras_osd_5inch_with_GPS.txt",
       "hash": "7b7e15fcd2b6fe1ceeef188b59ac28bcf48fee5825503818e572e71b2b0a185d",
       "options": [],
       "title": "Asuras 4.3 OSD settings",
@@ -241,6 +272,26 @@
       ],
       "category": "OSD",
       "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "Asuras",
+      "description": [
+        "Asuras Betaflight 4.3 OSD settings"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/asuras_osd_US65.txt",
+      "hash": "9470f4c67654894cd92222eec64a2741d81857163236202c0f398e7e60bc7f2a",
+      "options": [],
+      "title": "Asuras 4.3 OSD settings for Tiny Whoop (US65)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
       "keywords": [
         "defaults",
         "reset",
@@ -608,6 +659,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rates/asuras_US65.txt",
+      "hash": "09980c7665d13f5d1349b73c9faba74d6043fd6af7b87e8ed73505721d40bd07",
+      "options": [],
+      "title": "UAV Tech rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Whoop"
+      ],
+      "author": "Asuras",
+      "description": [
+        "Tiny Whoop rates for US65"
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/rates/ctzsnooze_race.txt",
       "hash": "36263af4495e625beae1ae6490a0cacc723525ec3bcbbe8f9c4d0b7699f4bbbb",
       "options": [],
@@ -884,6 +956,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rc_link/frsky_d_spi_US65.txt",
+      "hash": "389b1f79692dbc11b48d5157f394ad467bdc9cac50598da6022b80df900e2c38",
+      "options": [],
+      "title": "FrSky SPI US65",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "frsky",
+        "spi",
+        "rc",
+        "link"
+      ],
+      "author": "asuras",
+      "description": [
+        "RC link settings for US65"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/rc_link/frsky_sbus.txt",
       "hash": "fe62f2097d15c2db94df7bc77ab149e00fedf0fa913942ec57f395e8716d924f",
       "options": [
@@ -1093,6 +1186,79 @@
         "Uses automatic cutoff adjustment that will optimise the cutoff to the link frequency at arming. As a result, faster RC links will feel more responsive.",
         "If sticks are too sensitive, increase the auto smoothing factors in the CLI.",
         "Note: If motors feel warmer than usual after applying this preset, return the auto RC smoothing values back to default of 30."
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/asuras_tune_5inch_HDfreestyle.txt",
+      "hash": "dbf93d9616c52778529b63619e9b654ece191bff10b55020775e66a059236328",
+      "options": [],
+      "title": "Asuras 4.3 tune for 5inch copter HD freestyle",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "5inch",
+        "HD",
+        "freestyle",
+        "tune"
+      ],
+      "author": "Asuras",
+      "description": [
+        "Asuras Betaflight 4.3 tune for 5inch copter"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/asuras_tune_US65.txt",
+      "hash": "2f0db06a02d13eb85bde1beb74aa0085a87084b247b805fc87e50d00a7123b7c",
+      "options": [],
+      "title": "Asuras 4.3 tune for Tiny Whoop (US65)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Whoop",
+        "US65",
+        "tune"
+      ],
+      "author": "Asuras",
+      "description": [
+        "Asuras Betaflight 4.3 Tiny Whoop (US65) tune"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/US65_VTX.txt",
+      "hash": "75338e90ddfdb2afdaca025efd0f318bae430a72e218e43f4f2de99eb578aeac",
+      "options": [],
+      "title": "TBS Unify Pro32 HV SA 2.1",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "tbs",
+        "unify",
+        "pro32",
+        "HV",
+        "SA 2.1"
+      ],
+      "author": "sugarK, asuras",
+      "description": [
+        "VTX table for TBS Unify Pro32 HV SA 2.1. NOTE 1. Max power set to 36db as it will force the vtx to ouput max power. Note 2. this table is as provided by the manufacture.",
+        "The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.",
+        "----------",
+        "Using the VTX tables as provided may be in breach of your local RF laws. It is up to the end user to research and comply with local regulations and in using these presets the user assumes all liability associated with breaching local regulations."
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/31",
+      "include_disclaimer": [
+        "misc/disclaimer/en/vtxtable.txt"
       ]
     },
     {

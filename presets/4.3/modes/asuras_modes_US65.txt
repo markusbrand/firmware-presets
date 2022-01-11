@@ -1,0 +1,19 @@
+#$ TITLE: Asuras 4.3 Modes and Serial Port settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
+#$ AUTHOR: asuras
+#$ DESCRIPTION: Asuras default mode settings for Tiny Whoop
+#$ DESCRIPTION: Serial Port settings for US65
+
+# AUX switch settings
+aux 0 0 0 1300 2100 0 0
+aux 1 1 1 900 1300 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 13 2 1325 2100 0 0
+aux 4 30 0 900 2100 0 0
+aux 5 35 2 1700 2100 0 0
+
+# serial
+serial 1 2048 115200 57600 0 115200
