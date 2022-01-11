@@ -265,14 +265,19 @@
     },
     {
       "fullPath": "presets/4.3/osd/asuras_osd_5inch_with_GPS.txt",
-      "hash": "7b7e15fcd2b6fe1ceeef188b59ac28bcf48fee5825503818e572e71b2b0a185d",
-      "options": [],
-      "title": "Asuras 4.3 OSD settings",
+      "hash": "5e9f06f8c77679ff873f674e0f878d316dce8893abe5515cbc6cd873d42594c1",
+      "options": [
+        {
+          "name": "Include GPS infos on OSD",
+          "checked": true
+        }
+      ],
+      "title": "Asuras OSD settings for 5inch quad",
       "firmware_version": [
         "4.3"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "defaults",
         "reset",
@@ -280,7 +285,8 @@
       ],
       "author": "Asuras",
       "description": [
-        "Asuras Betaflight 4.3 OSD settings"
+        "Asuras Betaflight OSD settings for 5inch quad",
+        "Optional GPS infos"
       ]
     },
     {

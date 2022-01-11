@@ -1,10 +1,11 @@
-#$ TITLE: Asuras 4.3 OSD settings
+#$ TITLE: Asuras OSD settings for 5inch quad
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
-#$ STATUS: OFFICIAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, OSD
 #$ AUTHOR: Asuras
-#$ DESCRIPTION: Asuras Betaflight 4.3 OSD settings
+#$ DESCRIPTION: Asuras Betaflight OSD settings for 5inch quad
+#$ DESCRIPTION: Optional GPS infos
 
 set osd_warn_link_quality = ON
 set osd_rssi_pos = 2138
@@ -12,12 +13,6 @@ set osd_link_quality_pos = 2167
 set osd_tim_1_pos = 458
 set osd_tim_2_pos = 14794
 set osd_crosshairs_pos = 2285
-set osd_gps_speed_pos = 2081
-set osd_gps_lon_pos = 2145
-set osd_gps_lat_pos = 2113
-set osd_gps_sats_pos = 2105
-set osd_flight_dist_pos = 2497
-set osd_altitude_pos = 2177
 set osd_avg_cell_voltage_pos = 14806
 set osd_battery_usage_pos = 2471
 set osd_disarmed_pos = 14538
@@ -28,3 +23,13 @@ set osd_stat_bb_no = OFF
 set osd_stat_min_link_quality = ON
 set osd_stat_flight_dist = ON
 set osd_stat_total_time = ON
+
+# additional GPS infos:
+#$ OPTION BEGIN (CHECKED): Include GPS infos on OSD
+set osd_gps_speed_pos = 2081
+set osd_gps_lon_pos = 2145
+set osd_gps_lat_pos = 2113
+set osd_gps_sats_pos = 2105
+set osd_flight_dist_pos = 2497
+set osd_altitude_pos = 2177
+#$ OPTION END
